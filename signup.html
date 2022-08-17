@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		#main{
+			height: 700px;
+			width: 1200px;
+		}
+		
+		#zz{
+			height: 700px;
+			width: 80px;
+			background-image: url(border.jpg);
+			float: left;
+		}
+		#xx{
+			height: 700px;
+			width: 80px;
+			background-image: url(border.jpg);
+			float: right;
+		}
+		.cc{
+			height: 70px;
+			width: 1120px;
+			
+			
+			background-image: url(fade3.jpg);
+			
+			margin: auto;
+
+
+		}
+
+		#qq{
+			height: 600px;
+			width: 1100px;
+			color: pink;
+			font-size: 20px;
+			
+			
+			background-image: url(fade1.jpg);
+			margin:auto;
+			
+
+		}
+		h1{
+			color: white;
+			font-family: algerian;
+			text-align: center;
+		}
+		
+		#ee{
+			color: black;
+			font-size: 40px;
+			font-family: algerian;
+			text-align: center;
+
+		}
+		.rr{
+			height: 350px;
+			width: 350px;
+			
+			float: left;
+			border:red double 2px;
+			background-color: #EBEDEF;
+
+
+		}
+		.rt{
+			height: 350px;
+			width: 350px;
+			
+			float: right;
+			border:red double 2px;
+			background-color: #EBEDEF;
+			
+
+		}
+		#hh{
+			height: 70px;
+			width: 70px;
+			float: left;
+		}
+		ul{
+			margin:0px;
+			padding: 0px;
+		}
+		li{
+			color: white;
+			display: inline-block;
+			float: left;
+			margin-left: 30px;
+			margin-top: 20px;
+			font-size: 15px;
+
+		}
+		.obj{
+			
+			border-radius: 2px;
+		}
+		.d1{
+			margin-left: 70px;
+		}
+		.g4{
+			color: black;
+			font-family: algerian;
+			text-align: center;
+		}
+		.g5{
+			
+			color: black;
+			font-family: arial;
+			text-align: center;
+
+		}
+		.dd{
+			border:white solid 2px;
+			margin-left: 50px;
+		}
+		#a1{
+
+			color: white;
+		}
+		#img{
+			height: 450px;
+			width: 1100px;
+			background-image: url(slide2.jpg);
+		}
+
+		
+	</style>
+	<script type="text/javascript">
+		
+		function rah()
+		{
+			var a = document.getElementById("s1").value;
+		var b = document.getElementById("s2").value;
+		var c = document.getElementById("s3").value;
+		var d = document.getElementById("s4").value;
+
+		if(d.length<8)
+		{
+			alert("password cant be less then 8");
+		}
+		if(c.length<10)
+		{
+			alert("mobile number cant be less then 10");
+		}
+
+		}
+	</script>
+</head>
+<body>
+	<div id="main">
+	<div id="zz"></div>
+	<div id="xx"></div>
+	<div class="cc">
+		<div id="hh"><img src="foodies.png" height="70px" width="70px"></div>
+		<ul>
+			<li><a id="a1" href="menu.html">MENU</a></li>
+			<li>GROUP DINING</li>
+			<li>GIFT CARDS</li>
+			<li>CATERING</li>
+			<li class="dd">SIGN UP</li>
+			<li class="dd">SIGN IN</li>
+		</ul>
+	</div>
+	
+	<div id="qq">
+		<br><br>
+		<div class="obj">ENTER YOUR NAME:........<input type="text" id="s1" name="" placeholder="ENTER NAME"></div>
+	    <div class="obj">ENTER EMAIL ADDRESS:<input type="email" id="s2" name="" placeholder="ENTER EMAIL"></div>
+		<div class="obj">ENTER MOBILE NUMBER:<input type="text" id="s3" name="" placeholder="ENTER NUMBER"></div>
+		<div class="obj">ENTER PASSWORD:..........<input type="password" id="s4" name="" placeholder="ENTER PASSWORD"></div>
+		<div class="obj"><button id="b11" onclick="rah()">SUBMIT</button></div>
+		<div id="img"></div>
+		
+		
+	</div>
+</div>
+	
+	
+	
+	
+
+	
+
+		
+	
+	
+
+</body>
+</html>
